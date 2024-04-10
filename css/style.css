@@ -4,5 +4,32 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica;
-    background: var(--color-terciary);
+    background: var(--color-primary);
+    color: var(--color-secundary);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+}
+.header_h1{
+    color: var(--color-secundary);
+}
+.bx-child{
+    font-size: 4em;
+}
+.main_ul,
+.main_ul li,
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main_ul li{
+    align-items: center;
+    text-align: center;
+}
+.main_ul li h2{
+    color: var(--color-terciary);
 }
